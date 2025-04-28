@@ -4,6 +4,7 @@
 
 import pyb
 
+# For Arduino Portenta H7. Change accordingly if another module used
 uart = pyb.UART(1, baudrate=9600, timeout_char=200)
 
 def format_id(raw_bytes):
